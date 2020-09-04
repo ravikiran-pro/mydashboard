@@ -1,0 +1,23 @@
+{
+    "serve":{
+        "start":{
+            "args"   : "port",
+            "return" : "ngrok Url"
+        },
+
+        "stop" :{
+            "args"   : null,
+            "return" : true
+        } 
+    },
+    "typing":{
+        "setup/reload":{
+            "args"   : null,
+            "return" : ["random file","file content"]
+        },
+        "reset":{
+            "args"   : "filename",
+            "return" : ["file","file content"]
+        }
+    }
+}
